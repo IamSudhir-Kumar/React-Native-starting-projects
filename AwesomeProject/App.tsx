@@ -1,16 +1,20 @@
 import React from 'react';
-
-import {View, Text, SafeAreaView} from 'react-native';
-
-function App() {
+import {StyleSheet, Text, View} from 'react-native';
+export default function App() {
   return (
-    <SafeAreaView>
-      <View>
-        <Text>Hello React native</Text>
-        <Text>Hello React native</Text>
-        <Text>Hello React native</Text>
-      </View>
-    </SafeAreaView>
+    <View style={styles.container}>
+      <Text style={styles.design}>Hello World</Text>
+    </View>
   );
 }
-export default App;
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#FFF',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  design: {
+    color: '#000000',
+  },
+});
