@@ -1,1 +1,3 @@
-# React-Native-starting-projects
+React-Native-starting-projects
+
+React native with TypeScript
